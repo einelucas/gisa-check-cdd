@@ -5,9 +5,4 @@ import path from "path";
 export default defineConfig({
   base: "/gisa-check-cdd/", 
   plugins: [react()],
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
-    },
-  },
 });
